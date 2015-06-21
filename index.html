@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='app'>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href='style.css'>
+</head>
+<body>
+    My form here
+  <form wrap-in='red'>
+    <div>
+      <label>Email:</label>
+      <input type='text' placeholder='Place your email'>
+    </div>
+    <div>
+      <label>Password:</label>
+      <input type='password' placeholder='Enter your password'
+    </div>
+    <button>Submit</button>
+  </form>
+
+  <script type="text/ng-template" id='red'>
+    <div class='red'></div>
+  </script>
+
+  <script type="text/ng-template" id='table'>
+    <div>Header for table</div>
+  </script>
+</body>
+</html>
